@@ -1,0 +1,74 @@
+\BOOKMARK [0][-]{section*.2}{HALAMAN JUDUL}{}% 1
+\BOOKMARK [0][-]{section*.4}{LEMBAR PERSETUJUAN}{}% 2
+\BOOKMARK [0][-]{section*.5}{LEMBAR PERNYATAAN ORISINALITAS}{}% 3
+\BOOKMARK [0][-]{section*.6}{LEMBAR PENGESAHAN}{}% 4
+\BOOKMARK [0][-]{section*.7}{Kata Pengantar}{}% 5
+\BOOKMARK [0][-]{section*.8}{LEMBAR PERSETUJUAN PUBLIKASI ILMIAH}{}% 6
+\BOOKMARK [0][-]{section*.9}{ABSTRAK}{}% 7
+\BOOKMARK [0][-]{section*.9}{Daftar Isi}{}% 8
+\BOOKMARK [0][-]{section*.9}{Daftar Gambar}{}% 9
+\BOOKMARK [0][-]{section*.9}{Daftar Tabel}{}% 10
+\BOOKMARK [0][-]{section*.9}{Daftar Kode}{}% 11
+\BOOKMARK [0][-]{chapter.1}{1 Pendahuluan}{}% 12
+\BOOKMARK [1][-]{section.1.1}{1.1 Latar Belakang}{chapter.1}% 13
+\BOOKMARK [1][-]{section.1.2}{1.2 Rumusan Masalah}{chapter.1}% 14
+\BOOKMARK [1][-]{section.1.3}{1.3 Tujuan Penelitian}{chapter.1}% 15
+\BOOKMARK [1][-]{section.1.4}{1.4 Batasan Penelitian}{chapter.1}% 16
+\BOOKMARK [1][-]{section.1.5}{1.5 Sistematika Penulisan Laporan}{chapter.1}% 17
+\BOOKMARK [0][-]{chapter.2}{2 Landasan Teori}{}% 18
+\BOOKMARK [1][-]{section.2.1}{2.1 Diagram Voronoi}{chapter.2}% 19
+\BOOKMARK [2][-]{subsection.2.1.1}{2.1.1 Contoh Aplikasi Diagram Voronoi}{section.2.1}% 20
+\BOOKMARK [2][-]{subsection.2.1.2}{2.1.2 Macam-Macam Diagram Voronoi}{section.2.1}% 21
+\BOOKMARK [3][-]{subsubsection.2.1.2.1}{2.1.2.1 Weighted Voronoi Diagram}{subsection.2.1.2}% 22
+\BOOKMARK [3][-]{subsubsection.2.1.2.2}{2.1.2.2 Higher Order Voronoi Diagram}{subsection.2.1.2}% 23
+\BOOKMARK [3][-]{subsubsection.2.1.2.3}{2.1.2.3 Voronoi Diagrams with V-distances}{subsection.2.1.2}% 24
+\BOOKMARK [3][-]{subsubsection.2.1.2.4}{2.1.2.4 Network Voronoi Diagram}{subsection.2.1.2}% 25
+\BOOKMARK [3][-]{subsubsection.2.1.2.5}{2.1.2.5 Voronoi Diagram for Moving Points}{subsection.2.1.2}% 26
+\BOOKMARK [1][-]{section.2.2}{2.2 Macam-Macam Distances}{chapter.2}% 27
+\BOOKMARK [2][-]{subsection.2.2.1}{2.2.1 Jarak Euclidean}{section.2.2}% 28
+\BOOKMARK [2][-]{subsection.2.2.2}{2.2.2 Chebyshev Distance}{section.2.2}% 29
+\BOOKMARK [2][-]{subsection.2.2.3}{2.2.3 Manhattan distance}{section.2.2}% 30
+\BOOKMARK [2][-]{subsection.2.2.4}{2.2.4 Mahalanobis Distance}{section.2.2}% 31
+\BOOKMARK [1][-]{section.2.3}{2.3 Menentukan Jumlah Station Baru}{chapter.2}% 32
+\BOOKMARK [1][-]{section.2.4}{2.4 Hotspot}{chapter.2}% 33
+\BOOKMARK [1][-]{section.2.5}{2.5 GIS}{chapter.2}% 34
+\BOOKMARK [1][-]{section.2.6}{2.6 Tools}{chapter.2}% 35
+\BOOKMARK [2][-]{subsection.2.6.1}{2.6.1 R Studio}{section.2.6}% 36
+\BOOKMARK [2][-]{subsection.2.6.2}{2.6.2 ArcGIS}{section.2.6}% 37
+\BOOKMARK [2][-]{subsection.2.6.3}{2.6.3 OpenVoronoi}{section.2.6}% 38
+\BOOKMARK [2][-]{subsection.2.6.4}{2.6.4 Java Library: Power Voronoi Diagram}{section.2.6}% 39
+\BOOKMARK [1][-]{section.2.7}{2.7 Peta Kampus Universitas Indonesia}{chapter.2}% 40
+\BOOKMARK [1][-]{section.2.8}{2.8 WiFi 101}{chapter.2}% 41
+\BOOKMARK [0][-]{chapter.3}{3 Metodologi Penelitian}{}% 42
+\BOOKMARK [1][-]{section.3.1}{3.1 Studi Literatur}{chapter.3}% 43
+\BOOKMARK [2][-]{subsection.3.1.1}{3.1.1 Diagram Voronoi yang Digunakan}{section.3.1}% 44
+\BOOKMARK [2][-]{subsection.3.1.2}{3.1.2 Distance yang Digunakan}{section.3.1}% 45
+\BOOKMARK [2][-]{subsection.3.1.3}{3.1.3 Pemetaan Weighted Voronoi Diagram dan Hotspot}{section.3.1}% 46
+\BOOKMARK [1][-]{section.3.2}{3.2 Research Tools}{chapter.3}% 47
+\BOOKMARK [1][-]{section.3.3}{3.3 Data}{chapter.3}% 48
+\BOOKMARK [1][-]{section.3.4}{3.4 Implementasi Dasar}{chapter.3}% 49
+\BOOKMARK [1][-]{section.3.5}{3.5 Penambahan Bobot dan Jangkauan}{chapter.3}% 50
+\BOOKMARK [1][-]{section.3.6}{3.6 Modifikasi Implementasi dan Data}{chapter.3}% 51
+\BOOKMARK [1][-]{section.3.7}{3.7 Pemetaan dari Paper}{chapter.3}% 52
+\BOOKMARK [1][-]{section.3.8}{3.8 Distance yang Digunakan}{chapter.3}% 53
+\BOOKMARK [1][-]{section.3.9}{3.9 Evaluasi keberhasilan}{chapter.3}% 54
+\BOOKMARK [0][-]{chapter.4}{4 Hasil Penelitian}{}% 55
+\BOOKMARK [1][-]{section.4.1}{4.1 Data}{chapter.4}% 56
+\BOOKMARK [2][-]{subsection.4.1.1}{4.1.1 Data Access Point}{section.4.1}% 57
+\BOOKMARK [2][-]{subsection.4.1.2}{4.1.2 Olah Data}{section.4.1}% 58
+\BOOKMARK [1][-]{section.4.2}{4.2 Penggambaran Peta Universitas Indonesia}{chapter.4}% 59
+\BOOKMARK [1][-]{section.4.3}{4.3 Menggambarkan Demand dari Hotspot Pada Peta}{chapter.4}% 60
+\BOOKMARK [1][-]{section.4.4}{4.4 Menambahkan Lokasi Hotspot dan Bobot untuk Weighted Voronoi Diagram}{chapter.4}% 61
+\BOOKMARK [1][-]{section.4.5}{4.5 Menggambarkan Jangkauan Hotspot pada Peta}{chapter.4}% 62
+\BOOKMARK [1][-]{section.4.6}{4.6 Menggambarkan Weighted Voronoi Diagram pada Peta}{chapter.4}% 63
+\BOOKMARK [1][-]{section.4.7}{4.7 Evaluasi Coverage Hotspot Terhadap Demand}{chapter.4}% 64
+\BOOKMARK [1][-]{section.4.8}{4.8 Menambahkan Lokasi Hotspot Baru pada Daerah yang Belum Ter-cover Beserta Bobotnya}{chapter.4}% 65
+\BOOKMARK [1][-]{section.4.9}{4.9 Menggambarkan Jangkauan untuk Hotspot Baru pada Peta}{chapter.4}% 66
+\BOOKMARK [1][-]{section.4.10}{4.10 Menggambarkan Weighted Voronoi Diagram Baru}{chapter.4}% 67
+\BOOKMARK [1][-]{section.4.11}{4.11 Evaluasi Coverage Hotspot Baru Terhadap Demand}{chapter.4}% 68
+\BOOKMARK [1][-]{section.4.12}{4.12 Generate Weighted Voronoi Diagram}{chapter.4}% 69
+\BOOKMARK [0][-]{chapter.5}{5 Penutup}{}% 70
+\BOOKMARK [1][-]{section.5.1}{5.1 Kesimpulan}{chapter.5}% 71
+\BOOKMARK [1][-]{section.5.2}{5.2 Saran}{chapter.5}% 72
+\BOOKMARK [0][-]{section.5.2}{Daftar Referensi}{}% 73
+\BOOKMARK [0][-]{section*.24}{LAMPIRAN}{}% 74

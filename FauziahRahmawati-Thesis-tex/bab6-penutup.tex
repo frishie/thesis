@@ -1,0 +1,39 @@
+%-----------------------------------------------------------------------------%
+\chapter{\babEnam}
+%-----------------------------------------------------------------------------%
+
+Bab ini menjelaskan tentang kesimpulan yang dapat diambil setelah melakukan implementasi untuk \textit{home automation gateway} serta saran  yang dapat penulis sampaikan untuk pengembangan sistem ini selanjutnya.
+
+%-----------------------------------------------------------------------------%
+\section{Kesimpulan}
+
+%\textit{Gateway} dapat dibuat dengan menggunakan 
+
+%Zigbee \textit{coordinator} dapat dihubungkan dengan \textit{gateway} dengan menggunakan sensor virtual yang ditanam dalam \textit{server} REST yang 
+
+Dalam tugas akhir ini penulis berhasil mengimplementasikan sebuah \textit{gateway} yang dapat menghubungkan ZigBee \textit{coordinator} dengan \textit{cloud}. Setelah melakukan implementasi \textit{home automation gateway} dengan IoT \textit{cloud service} berbasis ZigBee \textit{network}, penulis dapat mengambil kesimpulan sebagai berikut.
+
+\begin{enumerate}
+\item \textit{Gateway} dapat dihubungkan dengan ZigBee \textit{coordinator} melalui REST API. Komunikasi antara \textit{gateway} dengan REST API dilakukan dengan menerjemahkan pesan dari \textit{client} menjadi perintah REST.
+
+\item \textit{Gateway} dapat mengirimkan dan menerima data dari dan ke \textit{cloud} dengan menggunakan protokol MQTT. Pengiriman data dari \textit{gateway} ke \textit{cloud} dilakukan oleh MQTT \textit{client} yang berperan sebagai \textit{publisher}. Sedangkan penerimaan data dari \textit{cloud} ke \textit{gateway} dilakukan oleh MQTT \textit{client} yang berperan sebagai \textit{subscriber}.
+
+\item Data tentang jaringan ZigBee disimpan dalam \textit{server} Mosquitto sehingga informasi tersebut dapat diakses dari mana saja melalui MQTT \textit{client}.
+
+\item Berdasarkan beberapa percobaan yang telah dilakukan, \textit{gateway} telah berjalan dengan baik karena dapat mengendalikan perangkat lampu ZigBee melalui MQTT \textit{client}.
+
+\end{enumerate}
+
+\section{Saran}
+
+Dari implementasi yang telah dilakukan penulis memiliki beberapa saran yang dapat digunakan untuk mengembangkan sistem ini.
+
+\begin{enumerate}
+
+\item Penggunaan protokol MQTT dapat disempurnakan dengan menyimpan \textit{client} yang pernah bergabung dalam jaringan dan topik yang pernah di-\textit{publish} atau di-\textit{subscribe} oleh \textit{client} tersebut. Hal ini ditujukan agar topik dan data dari \textit{client} tersebut masih tersedia dalam \textit{server} jika suatu saat \textit{client} bergabung kembali ke jaringan.
+
+\item Perlu ditambahkan proses pendaftaran atau izin agar tidak semua \textit{client} dapat mengakses informasi atau mengubah keadaan dari jaringan ZigBee.
+
+\item Pembacaan informasi tentang perangkat ZigBee dan pemberian perintah kepada perangkat ZigBee masih terhitung lambat, sehingga perlu dilakukan optimisasi agar proses yang dilakukan dapat berjalan lebih cepat.
+
+\end{enumerate}
